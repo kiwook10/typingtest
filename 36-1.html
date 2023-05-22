@@ -7,9 +7,11 @@
     <title>타이핑 효과 응용</title>
     <style>
         * { margin:0; padding:0;}
+        a {text-decoration:none;}
+        ul,li,ol { list-style:none;}
         .text { color:green; font-size:70px; 
                 position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);}
-        .text::after { content:"|"; color:red; 
+        .text::after { content:"|"; color:pink; 
                        animation:cursor 0.5s linear infinite;}
         @keyframes cursor {
             0% { opacity:1;}
