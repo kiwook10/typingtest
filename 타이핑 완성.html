@@ -8,9 +8,9 @@
     <style>
         * { margin:0; padding:0;}
         .text { color:green; font-size:80px; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);}
-        .text::after { content:"|"; color:blue; 
+        .text::after { content:"|"; color:whitesmoke; 
                         animation-name:cursor; animation-duration:0.5s; animation-timing-function:linear; animation-iteration-count:infinite;}
-        .text .child { color:orange;}
+        .text .child { color:blueviolet;}
         @keyframes cursor{
             0% { opacity:1;}
             100% { opacity:0;}
@@ -19,10 +19,14 @@
 </head>
 <body>
     <div class="text">11</div>
-    <div class="text">22</div>
-    <div class="text">33</div>
-    <div class="text">44</div>
+    <div class="text">20</div>
+    <div class="text">35</div>
+    <div class="text">45</div>
     <div class="text">55</div>
+    <div class="text">15</div>
+    <div class="text">3125</div>
+    <div class="text">515</div>
+    <div class="text">21330</div>
     
     <!-- <script>
         const text = document.querySelector(".text");
