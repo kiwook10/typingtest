@@ -2,21 +2,9 @@
  function textTyping(){
     
     console.log("타이핑효과 잘되네")
-    console.log("타이핑효과 정말 너무너무 잘되네")
-    console.log("타이핑효과 정말 너무너무 잘되네")
-    console.log("타이핑효과21112 잘되네")
-    console.log("타이핑효과222 잘되네")
-    console.log("타이핑효과3234 잘되네")
-    console.log("타이핑효과234234 잘되네")
-    console.log("타이핑효과 잘되네")
-    console.log("타이핑효과234 잘되네")
-    console.log("타이핑효과234 잘되네")
-    console.log("타이핑효과 잘되네")
-    console.log("타이핑효과234 잘되네")
-    console.log("타이핑효과 잘되네")
-    console.log("타이핑효과234 잘되네")
+   
     let a = 50 + 300000;
-    let b = 100 + 30;
+    let b = 100 + 333;
     //I'm a <-- 한번만 타이핑 찍어줄 텍스트 효과
     const text = document.querySelector(".text");
     let mainText = "I'm a ";
